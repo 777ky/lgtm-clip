@@ -1,0 +1,21 @@
+{
+  "name": "lgtm-clip",
+  "version": "1.0.0",
+  "description": "Random LGTM clipbord",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lgtm": "bin/index.js"
+  },
+  "keywords": [
+    "LGTM"
+  ],
+  "author": "ykurihara",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^1.2.3",
+    "prompts": "^1.2.0"
+  }
+}
